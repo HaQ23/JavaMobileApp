@@ -1,0 +1,33 @@
+# Projekt Javapro
+
+## Opis
+
+Projekt składa się z dwóch głównych części:
+
+1. **javapro** - RESTowy serwis webowy stworzony przy użyciu Spring Boot. Serwis ten udostępnia API, które może być wykorzystane do różnych zadań związanych z zarządzaniem danymi przez protokół HTTP.
+
+2. **javapromobile** - Aplikacja mobilna stworzona za pomocą Android Studio. Aplikacja ta komunikuje się z serwisem RESTowym `javapro` i umożliwia użytkownikom interakcję z danymi na urządzeniach mobilnych.
+
+## Struktura Projektu
+
+- `javapro`: Katalog zawierający wszystkie pliki źródłowe serwisu RESTowego.
+- `javapromobile`: Katalog zawierający wszystkie pliki źródłowe aplikacji mobilnej.
+
+## Uruchamianie Projektu
+
+### Serwis RESTowy (javapro)
+
+Aby uruchomić serwis RESTowy, wykonaj poniższe kroki:
+
+1. Przejdź do folderu `javapro`.
+2. Uruchom serwis za pomocą Maven
+
+Serwis będzie dostępny pod adresem `http://localhost:8080`.
+
+### Aplikacja Mobilna (javapromobile)
+
+Aby uruchomić aplikację mobilną, wykonaj poniższe kroki:
+
+1. Otwórz Android Studio.
+2. Z menu wybierz `File > Open...` i nawiguj do folderu `javapromobile`.
+3. Po załadowaniu projektu, uruchom aplikację na emulatorze lub urządzeniu mobilnym za pomocą przycisku `Run`.

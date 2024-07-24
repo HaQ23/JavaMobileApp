@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">javapro</string>
+    <string name="quiz_lobby_title">Quiz</string>
+    <string name="quiz_lobby_text">
+        Nazwa: Spring podstawy
+    </string>
+    <string name="quiz_lobby_time">Czas trwania: 45 min.</string>
+    <string name="quiz_lobby_warning">Uwaga! pytania mogą zawierać kilka poprawnych odpowiedzi.</string>
+    <string name="quiz_lobby_button">Rozpocznij quiz</string>
+    <string name="quiz_list_title">Wybierz interesujący cie quiz</string>
+    <string name="slide_image">Slide Image</string>
+    <string name="add_lecture">Dodaj wykład</string>
+    <string name="add_slide">Dodaj slide</string>
+</resources>
