@@ -1,35 +1,32 @@
-# Projekt Javapro
+# Javapro Project
 
-## Opis
+## Description
 
-Projekt składa się z dwóch głównych części:
+The project consists of two main parts:
 
-1. **javapro** - RESTowy serwis webowy stworzony przy użyciu Spring Boot. Serwis ten udostępnia API, które może być wykorzystane do różnych zadań związanych z zarządzaniem danymi przez protokół HTTP.
-2. **javapromobile** - Aplikacja mobilna stworzona za pomocą Android Studio. Aplikacja ta komunikuje się z serwisem RESTowym `javapro` i umożliwia użytkownikom interakcję z danymi na urządzeniach mobilnych.
+1. **javapro** - A RESTful web service developed using Spring Boot. This service provides an API that can be utilized for various tasks related to data management via the HTTP protocol.
+2. **javapromobile** - A mobile application developed using Android Studio. This application communicates with the `javapro` RESTful service and enables users to interact with data on mobile devices.
 
-## Struktura Projektu
+## Project Structure
 
-- **javapro**: Katalog zawierający wszystkie pliki źródłowe serwisu RESTowego.
-- **javapromobile**: Katalog zawierający wszystkie pliki źródłowe aplikacji mobilnej.
+- **javapro**: Directory containing all the source files for the RESTful service.
+- **javapromobile**: Directory containing all the source files for the mobile application.
 
-## Dane i Technologie
+## Technologies
 
-- **Baza danych**: PostgreSQL - używana do trzymania wszystkich danych aplikacji.
-- **ORM**: Hibernate - narzędzie do mapowania obiektowo-relacyjnego, używane do komunikacji aplikacji z bazą danych.
+- **JAVA**, **Spring Boot**, **Hibernate**, **PostgreSQL**, **XML**
 
-## Moduły Aplikacji Mobilnej
+## Mobile Application Modules
 
-Aplikacja mobilna **javapromobile** zawiera następujące moduły:
+The mobile application **javapromobile** includes the following modules:
 
-1. **Test Java Pro** - Moduł umożliwiający użytkownikom sprawdzenie swojej wiedzy z języka Java poprzez testy i quizy.
+1. **Java Pro Test** - A module that allows users to test their knowledge of Java through quizzes and tests.
+2. **Lecture Browser** - A section where users can browse available educational materials and lectures.
+3. **Chat with ChatGPT** - A chat feature that allows users to interact with artificial intelligence for discussions or to ask questions related to the course.
 
-2. **Przeglądarka Wykładów** - Sekcja, w której użytkownicy mogą przeglądać dostępne materiały edukacyjne i wykłady.
+## Application Interface:
 
-3. **Czat z ChatGPT** - Funkcjonalność czatu, która pozwala użytkownikom na interakcję z sztuczną inteligencją do prowadzenia rozmów lub zadawania pytań związanych z kursem.
-
-## Wygląd aplikacji:
-
-### Przykładowa część aplikacji z seckji quizzu:
+### Example sections from the quiz module:
 
 ![alt text](images/image.png)
 ![alt text](images/image2.png)
