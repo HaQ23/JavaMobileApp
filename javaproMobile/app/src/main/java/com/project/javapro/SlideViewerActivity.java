@@ -100,7 +100,7 @@ public class SlideViewerActivity extends AppCompatActivity {
 
     private void updateSlide() {
         if (slideNames != null && !slideNames.isEmpty() && currentSlideIndex >= 0 && currentSlideIndex < slideNames.size()) {
-            String slideUrl = "http://192.168.101.119/:8080/uploads/" + lectureName + "/" + slideNames.get(currentSlideIndex);
+            String slideUrl = "http://192.168.137.119/:8080/uploads/" + lectureName + "/" + slideNames.get(currentSlideIndex);
             Glide.with(this).load(slideUrl).into(slideImageView);
             slideNumberTextView.setText((currentSlideIndex + 1) + "/" + slideNames.size());
         }

@@ -37,7 +37,7 @@ import java.util.List;
 
 public class QuizActivity extends AppCompatActivity {
 
-    private static final String BASE_URL = "http:// 192.168.101.119:8080/uploads/";
+    private static final String BASE_URL = "http:// 192.168.137.119:8080/uploads/";
     private static final String TAG = "QuizActivity";
 
     private QuizDto quizDto;

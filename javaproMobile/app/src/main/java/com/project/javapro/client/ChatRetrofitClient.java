@@ -8,7 +8,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 public class ChatRetrofitClient {
 
     private static Retrofit retrofit;
-    private static final String BASE_URL = "http://192.168.101.119:8080/";
+    private static final String BASE_URL = "http://192.168.137.119:8080/";
 
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {

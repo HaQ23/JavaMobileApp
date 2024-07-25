@@ -289,7 +289,7 @@ public class EditQuestionActivity extends AppCompatActivity {
         MultipartBody.Part body = MultipartBody.Part.createFormData("file", fileName, requestFile);
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.101.119:8080/")
+                .baseUrl("http://192.168.137.119:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
